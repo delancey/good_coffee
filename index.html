@@ -24,7 +24,7 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     
@@ -41,7 +41,7 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Coffee <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Coffee <span class="sr-only">(current)</span></a></li>
         <li><a href="#mission">Mission</a></li>
       </ul>
       
@@ -58,16 +58,7 @@
                     </div>
                </a></li>
        <!-- END MODAL -->
-                   <li class="dropdown">
-                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                   <ul class="dropdown-menu" role="menu">
-                       <li><a href="#">Action</a></li>
-                       <li><a href="#">Another action</a></li>
-                       <li><a href="#">Something else here</a></li>
-                       <li class="divider"></li>
-                       <li><a href="#">Separated link</a></li>
-                   </ul>
-                   </li>
+                   
                </ul>
            </div><!-- /.navbar-collapse -->
            </div><!-- /.container-fluid -->
@@ -87,13 +78,39 @@
   </div>
 
 </div>
+<div  id="location">
+<div class="venue">
+  <div class="col-xs-4 col-md-4">
+    <h3>Lake Norman</h3>
+    <p>8700 Sam Fur Road <br>
+    Huntersville, NC 28978 <br>
+    (704) 555-1212</p>
+  </div>
+   <div class="col-xs-4 col-md-4">
+      <h3>Center City</h3>
+    <p>210 East Trade Street <br>
+    Charlotte, NC 28202 <br>
+    (704) 555-1213</p>
+   </div>
+    <div class="col-xs-4 col-md-4">
+       <h3>Ballantyne</h3>
+       <p>7981 Rea Road <br>
+    Charlotte, NC 28277 <br>
+    (704) 555-1214</p>
+    <p></p>
+    </div>
+  </div>
+</div>
+
 <div class="container features">
-  <div class="row">
+  <div class="row" id="about">
 
     <div class="col-xs-12 col-sm-4">
       <img class="img-responsive" src="images/beans.jpg" alt="Coffee Beans">
       <p>The freshest locally sourced coffee. Organic and Fair Trade certified.</p>
     </div>
+    
+
 
     <div class="col-xs-12 col-sm-4">
       <img class="img-responsive" src="images/coffee-board.jpg" alt="Coffee Shop">
@@ -110,15 +127,16 @@
   </div>
 </div>
 
-    <footer class="container-fluid">
+    <footer class= "col-xs-12">
+     
       <p>&copy; Good Coffee Co. 2015</p>
 
       <ul>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Location</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#location">Location</a></li>
         <li><a href="#">Coffee</a></li>
       </ul>
-
+      
     </footer>
 
     

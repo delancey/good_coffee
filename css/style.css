@@ -5,11 +5,40 @@ black - #323232
 white - #f7fafe
 */
 
+.container-fluid{
+  background-color: #2f221a;
+}
+
 
 body{
+  position: relative;
 	background-color: #a2ded0;
 	color:#323232;
 }
+
+
+.navbar-default{
+  background-color: #2F221A;
+  margin-left: 0;
+  margin-right: 0;
+  padding left: 15px;
+ 
+}
+.navbar-header{
+  background-color: #2F221A;
+  
+}
+
+.navbar-nav>li>a:link {color: whitesmoke;}
+.navbar-nav>li>a:visited {color:#B1AAA4;}
+.navbar-nav>li>a:hover {color: tan;}
+
+
+
+.collapse{
+  background-color: #2F221A;
+}
+
 
 .jumbotron{
 	background-image: url('../images/Drip_Coffee_Bangkok.jpg');
@@ -31,7 +60,7 @@ body{
 }
 
 .mission{
-	background-color: #323232;
+	background-color: #261C15;
 	color: #f7fafe;
 	font-family: 'Alegreya Sans SC', sans-serif;
 	font-weight: 100;
@@ -50,7 +79,10 @@ margin-top: -5px;
 }
 
 .features{
-	padding: 5% 0;
+  height: 400px;
+  margin-top: 100px;
+  margin-bottom: px;
+	
 }
 .features p{
 	font-family: 'Muli', sans-serif;
@@ -61,15 +93,29 @@ margin-top: -5px;
 
 }
 
-.container{
-	height: 500px;
+
+
+.venue{
+  background-color: antiquewhite;
+  margin-top: -30px;
+  height: 180px;
+  padding-top: 1em;
+  text-align: center;
 }
 
+.venue h3{
+  font-family: 'playfair display', serif;
+}
+.venue p{
+  font-family: "alegreya sans sc";
+  font-size: 1.3em;
+}
 
 footer {
-	background-color: #d64541;
-	position: absolute;
-	width: 100%;
+	background-color: #970000 !important ;
+   	width: 100%;
+  position: absolute;
+  bottom: 0;
 }
 
 footer ul li {
